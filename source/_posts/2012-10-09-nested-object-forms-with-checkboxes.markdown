@@ -2,7 +2,7 @@
 layout: post
 title: "nested object forms with checkbox"
 description: ""
-category: rails
+categories: Rails
 tags: []
 ---
 versions: rails 3.2.8, ruby 1.9.4
