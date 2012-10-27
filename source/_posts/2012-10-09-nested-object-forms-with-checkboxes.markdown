@@ -71,10 +71,7 @@ this is the part which is different from normal nested object forms
 ``` erb _form.html.erb
 <% Category.all.each do |category| %>
 
-  <% check_flag = false %>
-  <% @article.articles_categories.each do |articles_category| %>
-    <% if articles_category.category_id == category.id then check_flag = true end %>
-  <% end %>
+  <% check_flag = @article.articles_categories.any? { |articles_category| articles_category.category_id == category.id } %>
 
   <%= check_box_tag "article[articles_categories_attributes][][category_id]", category.id, check_flag %>
   <%= category.name %>
