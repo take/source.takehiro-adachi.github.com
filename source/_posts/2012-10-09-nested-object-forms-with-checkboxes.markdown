@@ -79,7 +79,6 @@ this is the part which is different from normal nested object forms
 ```
 
 basically you can't use fields_for, so you have to write it like this.
-I know the part where it check if the checkbox should be checked or not is not perfect, but I couldnt come up with anything else :P
 
 
 **update method**
