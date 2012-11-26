@@ -18,7 +18,7 @@ end
 puts nums.inspect # => [1, 4, 9, 16]
 ```
 
-For a Ruby newbie like me, this was like ![wtf](/images/wtf.png)
+For a Ruby newbie like me, this was like <i class="icon-wtf"></i>
 
 I used to be a PHPer, well not a good PHPer.
 So the block concept was really new for me.
